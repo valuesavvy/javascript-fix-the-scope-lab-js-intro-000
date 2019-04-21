@@ -1,18 +1,19 @@
 var animal = 'dog'
-var theanimal = 'cat'
 
-function myAnimal(){
-    return theanimal
-     
-      
+
+function myAnimal() {
+    return animal
 }
+
+var catanimal = 'cat'
 
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return myAnimal
+  return catanimal
 }
+
 const two = 2
 
 function add2(n) {
